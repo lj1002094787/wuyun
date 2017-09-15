@@ -1,0 +1,57 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-size: 1.2rem;
+}
+
+
+/*版心*/
+
+.mx1490 {
+	max-width: 1490px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.h80 {
+	height: 80px;
+}
+
+.lh80 {
+	line-height: 80px;
+}
+.am-nav>li>a:focus, .am-nav>li>a:hover{
+	background: none;
+	color: #4b3c2e;
+}
+.nav-right li{
+	background: url(../img/line.png) no-repeat right center;
+}
+.am-topbar {
+	height: 80px;
+	background: #fff;
+}
+
+.am-topbar a {
+	color: #978473;
+}
+
+.nav li>a {
+	line-height: 80px;
+	padding: 0 23px;
+}
+
+.hlogo {
+	margin-left: 25px;
+	padding-top: 11px;
+}
+
+.hlogo img {
+	width: 100%;
+	max-width: 26px;
+}
