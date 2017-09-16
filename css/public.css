@@ -1,0 +1,77 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-size: 1.2rem;
+	color: #978473;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+div {
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.fl {
+	float: left !important;
+}
+
+.fr {
+	float: right !important;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.bg-efefef {
+	background: #efefef;
+}
+
+
+/*版心*/
+
+.mx1490 {
+	max-width: 1490px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.h80 {
+	height: 80px;
+}
+
+.lh80 {
+	line-height: 80px;
+}
+
+.borderBot {
+	border-top: solid 1px #ddd;
+}
+
+/*返回顶层按钮*/
+.am-icon-arrow-circle-up {
+	position: fixed;
+	bottom: 30px;
+	right: 40px;
+	font-size: 50px;
+	opacity: .5;
+	transition: all .5s;
+}
+
+.am-icon-arrow-circle-up:hover {
+	opacity: 1;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+.am-nav>li>a:focus,
+.am-nav>li>a:hover {
+	background: none;
+	color: #4b3c2e;
+}
+
+.nav-right li {
+	background: url(../img/line.png) no-repeat right center;
+}
+
+.am-topbar {
+	height: 80px;
+	background: #fff;
+	border-width: 0;
+}
+
+.am-topbar a {
+	color: #978473;
+}
+
+.am-topbar.am-sticky.am-animation-slide-top {
+	border-width: 0 0 1px !important;
+}
+
+.nav li>a {
+	line-height: 80px;
+	padding: 0 23px;
+}
+
+.hlogo {
+	margin-left: 25px;
+	padding-top: 11px;
+}
+
+.hlogo img {
+	width: 100%;
+	max-width: 26px;
+}
+
+.am-sticky-placeholder {
+	margin: 0 !important;
+}
