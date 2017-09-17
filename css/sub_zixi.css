@@ -1,0 +1,26 @@
+@charset "utf-8";
+.row1 {
+	position: relative;
+}
+
+.row1 p {
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	top: 45%;
+	left: 45%;
+	color: #a19a91;
+}
+
+.imgBox {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.imgBox img {
+	transition: all 1s;
+}
+
+.imgBox:hover img {
+	transform: scale(1.2);
+}

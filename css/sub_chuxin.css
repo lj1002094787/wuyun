@@ -46,22 +46,22 @@
 	top: initial;
 }
 
-.am-slider-default .am-direction-nav .am-prev {
+.focus2.am-slider-default .am-direction-nav .am-prev {
 	right: 50%;
 	margin-right: -120px;
 	left: initial;
 }
 
-.am-slider-default .am-direction-nav .am-next {
+.focus2.am-slider-default .am-direction-nav .am-next {
 	right: 50%;
 	margin-right: -148px;
 }
 
-.am-slider-default .am-viewport {
+.focus2.am-slider-default .am-viewport {
 	margin-bottom: 100px;
 }
 
-.am-slider-default .am-control-nav {
+.focus2.am-slider-default .am-control-nav {
 	bottom: -28px;
 }
 
