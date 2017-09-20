@@ -14,7 +14,7 @@
 
 .imgBox {
 	overflow: hidden;
-	margin-top: 40px;
+	margin-top: 32px;
 }
 
 .imgBox img {
@@ -23,4 +23,20 @@
 
 .imgBox:hover img {
 	transform: scale(1.2);
+}
+
+.row2 p {
+	padding-top: 1%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.row2 p a {
+	font-size: 1.4rem;
+	color: #A38B77;
+	line-height: 2rem;
+}
+
+.row2 p a:hover {
+	color: #4b3c2e;
 }

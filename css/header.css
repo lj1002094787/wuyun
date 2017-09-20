@@ -41,3 +41,42 @@
 .am-sticky-placeholder {
 	margin: 0 !important;
 }
+
+@media screen and (max-width: 640px) {
+	.mx640 {
+		width: 100%;
+	}
+	.mx1490 {
+		background: #fff;
+	}
+	.nav li>a {
+		line-height: 10px;
+		vertical-align: top;
+	}
+	.hlogo {
+		margin-left: 10px;
+		padding-top: 0px;
+	}
+	.am-topbar {
+		height: 50px;
+	}
+	.h80 {
+		height: 50px;
+	}
+	.hlogo img {
+		max-width: 15px;
+	}
+	.am-topbar-nav {
+		margin-top: 8px;
+		float: right;
+	}
+	.am-topbar-nav>li {
+		float: left;
+	}
+	.am-topbar-nav>li+li {
+		margin-top: 0;
+	}
+	.am-nav.nav>li>a {
+		padding: .4em 1em;
+	}
+}

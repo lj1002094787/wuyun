@@ -1,0 +1,51 @@
+@charset "utf-8";
+a {
+	text-decoration: none;
+	color: #A38B77;
+}
+
+a:hover {
+	color: #4b3c2e;
+}
+
+.breadNav {
+	margin-top: 20px;
+}
+
+.breadNav ol {
+	margin-left: 26px;
+}
+
+.am-breadcrumb>li+li:before {
+	padding: 0 2px;
+}
+
+.title h2 {
+	font-size: 36px;
+	line-height: 66px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.body {
+	text-align: center;
+	margin: 40px auto 70px auto;	
+}
+
+.body .icon {
+	margin-bottom: 20px;
+}
+
+.body .icon a {
+	width: 66px;
+	height: 66px;
+	line-height: 66px;
+	font-size: 26px;
+}
+
+.body .path p {
+	margin: 0;
+}
+.body .qrcode img{
+	width: 100px;
+}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+a {
+	text-decoration: none;
+	color: #A38B77;
+}
+
+a:hover {
+	color: #4b3c2e;
+}
+
+.focus {
+	margin-top: 30px;
+}
+
+.left h2 {
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+.left p {
+	margin: 0;
+}
+
+.left .am-badge {
+	font-weight: normal;
+}
+
+.right img {
+	width: 100%;
+	max-height: 55px;
+}
+
+.right dt {
+	width: 80px;
+}
+
+.right dd {
+	text-align: center;
+}
+
+.right .am-thumbnail {
+	margin-bottom: 0;
+}
+
+.bannerBot {
+	border-bottom: 1px solid #ddd;
+}

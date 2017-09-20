@@ -15,15 +15,13 @@ ol {
 	list-style: none;
 }
 
-img {
-	box-sizing: border-box;
-	vertical-align: middle;
-}
-
 div {
 	margin: 0 auto;
 	box-sizing: border-box;
 }
+/*img{
+	width: 100%;
+}*/
 
 .fl {
 	float: left !important;
@@ -43,6 +41,12 @@ div {
 
 
 /*版心*/
+
+.mx900 {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
 
 .mx1390 {
 	max-width: 1390px;
